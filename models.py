@@ -75,17 +75,22 @@ class MaintenenceHistory:
         self.first_window_open = None
         self.first_window_late = None
         self.first_window_close = None
+        self.first_window_status = None
         self.first_window_payment_status = None
 
         self.second_window_open = None
         self.second_window_late = None
         self.second_window_close = None
+        self.second_window_status = None
         self.second_window_payment_status = None
 
         self.third_window_open = None
         self.third_window_late = None
         self.third_window_close = None
+        self.third_window_status = None
         self.third_window_payment_status = None
+
+        self.next_window_opens
 
         self.source_link = None
         self.pdf_link = None
