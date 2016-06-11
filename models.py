@@ -51,6 +51,9 @@ class inventor:
 class Assignment_Event:
 
     def __init__(self):
+        self.reel = None
+        self.frame = None
+
         self.execution_date = None
         self.record_date = None
         self.assignment_type = None
@@ -59,8 +62,8 @@ class Assignment_Event:
         self.assignee_name = None
         self.assignee_address = None
 
-        self.correspondant_name = None
-        self.correspondant_address = None
+        self.correspondent_name = None
+        self.correspondent_address = None
 
         self.source_link = None
 
