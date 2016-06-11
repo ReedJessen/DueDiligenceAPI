@@ -106,11 +106,14 @@ class LitigationEvents:
     def __init__(self):
         self.case_number = None
         self.title = None
+        self.date_filed = None
+        self.date_terminated
         self.venue = None
         self.judge_name = None
 
         self.parties = []
-
+        self.rpx_link = None
+        self.pacer_link = None
 
     def add_party(self,party):
         self.parties.append(party)
