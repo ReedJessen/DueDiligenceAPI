@@ -30,6 +30,9 @@ class Biography:
         self.publication_date = None
         self.grant_date = None
 
+        self.original_assignee = None
+        self.current_assignee =  None
+
         self.inventors = []
 
         self.USPC_Classifications = []
@@ -39,6 +42,8 @@ class Biography:
         self.priority_claims = []
         self.forward_citations = []
         self.backward_citations = []
+
+        self.gov_source_link = None
 
 class inventor:
     pass
